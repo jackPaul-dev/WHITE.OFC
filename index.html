@@ -1,7 +1,7 @@
-<!DOCTYPE html><html lang="es"><head>
+<!DOCTYPE html><html lang="fr"><head><link rel="icon" type="image/x-icon" href="favicon.ico">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Plan Chía Personalizado — Quiz</title>
+<title>Plan Chía Personnalisé — Quiz</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -387,7 +387,7 @@
   .testimonial .stars { color: #f5b800; font-size: 13px; margin-left: auto; }
   .testimonial p { font-size: 14px; color: #4a5764; }
 
-  /* Antes/Depois */
+  /* Avant/Après */
   .before-after {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -627,257 +627,257 @@
 <div class="wrap">
 
   <div class="card">
-    <div class="logo"><img src="assets/ChatGPT%20Image%2011%20de%20mai.%20de%202026%2C%2000_52_45.png" alt="Plan Chía"></div>
-    <div class="tagline">Tu plan personalizado en 2 minutos</div>
+    <div class="logo"><img src="assets/logo.png" alt="Plan Chía"></div>
+    <div class="tagline">Ton plan personnalisé en 2 minutes</div>
     <div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
 
-    <!-- WELCOME -->
+    <!-- ACCUEIL -->
     <div class="step active welcome" data-step="start">
       <div class="hero-ico">🌱</div>
-      <h1>Descubre tu <span class="hl">plan personalizado</span> con chía</h1>
-      <p class="lede">Responde 14 preguntas rápidas y recibe tu plan adaptado a tu cuerpo y objetivo.</p>
+      <h1>Découvre ton <span class="hl">plan personnalisé</span> avec le chia</h1>
+      <p class="lede">Réponds à 14 questions rapides et reçois ton plan adapté à ton corps et à ton objectif.</p>
 
       <div class="welcome-stars">★★★★★</div>
-      <div class="welcome-rating"><strong>4.9 / 5</strong> · basado en +12.000 mujeres</div>
+      <div class="welcome-rating"><strong>4,9 / 5</strong> · basé sur +12 000 femmes</div>
 
       <div class="welcome-stats">
-        <div class="welcome-stat"><span class="v">14</span><span class="l">Preguntas</span></div>
-        <div class="welcome-stat"><span class="v">2 min</span><span class="l">Duración</span></div>
-        <div class="welcome-stat"><span class="v">100%</span><span class="l">Personal</span></div>
+        <div class="welcome-stat"><span class="v">14</span><span class="l">Questions</span></div>
+        <div class="welcome-stat"><span class="v">2 min</span><span class="l">Durée</span></div>
+        <div class="welcome-stat"><span class="v">100%</span><span class="l">Personnel</span></div>
       </div>
 
       <div class="welcome-bullets">
-        <div class="wb"><span class="ck">✓</span> Calculamos tu IMC y meta saludable</div>
-        <div class="wb"><span class="ck">✓</span> Analizamos tu metabolismo y hábitos</div>
-        <div class="wb"><span class="ck">✓</span> Recibes un plan adaptado a ti</div>
+        <div class="wb"><span class="ck">✓</span> On calcule ton IMC et ton objectif santé</div>
+        <div class="wb"><span class="ck">✓</span> On analyse ton métabolisme et tes habitudes</div>
+        <div class="wb"><span class="ck">✓</span> Tu reçois un plan entièrement adapté à toi</div>
       </div>
 
-      <button class="btn-primary btn-big" onclick="next()">EMPEZAR EL QUIZ →</button>
-      <div class="welcome-meta">🔒 100% gratis y confidencial · Sin compromiso</div>
+      <button class="btn-primary btn-big" onclick="next()">COMMENCER LE QUIZ →</button>
+      <div class="welcome-meta">🔒 100% gratuit et confidentiel · Sans engagement</div>
     </div>
 
     <!-- QUIZ -->
     <div class="step" data-step="q1">
-      <div class="question-num">Pregunta 1 de 14</div>
-      <h2>¿Cuál es tu edad?</h2>
+      <div class="question-num">Question 1 sur 14</div>
+      <h2>Quel est ton âge ?</h2>
       <div class="options">
-        <button class="option" onclick="next()"><span class="emoji">🌸</span> 18 – 29 años</button>
-        <button class="option" onclick="next()"><span class="emoji">🌿</span> 30 – 39 años</button>
-        <button class="option" onclick="next()"><span class="emoji">🍃</span> 40 – 49 años</button>
-        <button class="option" onclick="next()"><span class="emoji">🌷</span> 50 – 59 años</button>
-        <button class="option" onclick="next()"><span class="emoji">🌹</span> 60+ años</button>
+        <button class="option" onclick="next()"><span class="emoji">🌸</span> 18 – 29 ans</button>
+        <button class="option" onclick="next()"><span class="emoji">🌿</span> 30 – 39 ans</button>
+        <button class="option" onclick="next()"><span class="emoji">🍃</span> 40 – 49 ans</button>
+        <button class="option" onclick="next()"><span class="emoji">🌷</span> 50 – 59 ans</button>
+        <button class="option" onclick="next()"><span class="emoji">🌹</span> 60 ans et plus</button>
       </div>
     </div>
 
     <div class="step" data-step="q2">
-      <div class="question-num">Pregunta 2 de 14</div>
-      <h2>¿Cuál es tu sexo?</h2>
+      <div class="question-num">Question 2 sur 14</div>
+      <h2>Quel est ton sexe ?</h2>
       <div class="options">
-        <button class="option" onclick="next()"><span class="emoji">👩</span> Mujer</button>
-        <button class="option" onclick="next()"><span class="emoji">👨</span> Hombre</button>
+        <button class="option" onclick="next()"><span class="emoji">👩</span> Femme</button>
+        <button class="option" onclick="next()"><span class="emoji">👨</span> Homme</button>
       </div>
     </div>
 
     <div class="step" data-step="q3">
-      <div class="question-num">Pregunta 3 de 14</div>
-      <h2>¿Cuál es tu altura?</h2>
+      <div class="question-num">Question 3 sur 14</div>
+      <h2>Quelle est ta taille ?</h2>
       <div class="input-group">
         <input type="number" id="altura" placeholder="165" min="120" max="220">
         <div class="input-suffix">cm</div>
       </div>
-      <button class="btn-primary" onclick="saveAndNext('altura')">Continuar</button>
+      <button class="btn-primary" onclick="saveAndNext('altura')">Continuer</button>
     </div>
 
     <div class="step" data-step="q4">
-      <div class="question-num">Pregunta 4 de 14</div>
-      <h2>¿Cuál es tu peso actual?</h2>
+      <div class="question-num">Question 4 sur 14</div>
+      <h2>Quel est ton poids actuel ?</h2>
       <div class="input-group">
         <input type="number" id="peso" placeholder="75" min="30" max="200">
         <div class="input-suffix">kg</div>
       </div>
-      <button class="btn-primary" onclick="saveAndNext('peso')">Continuar</button>
+      <button class="btn-primary" onclick="saveAndNext('peso')">Continuer</button>
     </div>
 
     <div class="step" data-step="q5">
-      <div class="question-num">Pregunta 5 de 14</div>
-      <h2>¿Cuál es tu peso ideal?</h2>
+      <div class="question-num">Question 5 sur 14</div>
+      <h2>Quel est ton poids idéal ?</h2>
       <div class="input-group">
         <input type="number" id="pesoIdeal" placeholder="60" min="30" max="200">
         <div class="input-suffix">kg</div>
       </div>
-      <button class="btn-primary" onclick="saveAndNext('pesoIdeal')">Continuar</button>
+      <button class="btn-primary" onclick="saveAndNext('pesoIdeal')">Continuer</button>
     </div>
 
-    <!-- LOADING 1 -->
+    <!-- CHARGEMENT 1 -->
     <div class="step loading-screen" data-step="l1">
       <div class="loading-icon">⚖️</div>
-      <h2>Calculando tu IMC</h2>
+      <h2>Calcul de ton IMC</h2>
       <div class="loading-bar"><div class="loading-fill" id="lf1"></div></div>
       <div class="loading-pct" id="lp1">0%</div>
       <div class="loading-tasks" id="lt1">
-        <div class="loading-task" data-t="0"><span class="check">○</span> Procesando peso y altura</div>
-        <div class="loading-task" data-t="1"><span class="check">○</span> Calculando índice de masa corporal</div>
-        <div class="loading-task" data-t="2"><span class="check">○</span> Comparando con tu objetivo</div>
+        <div class="loading-task" data-t="0"><span class="check">○</span> Traitement du poids et de la taille</div>
+        <div class="loading-task" data-t="1"><span class="check">○</span> Calcul de l'indice de masse corporelle</div>
+        <div class="loading-task" data-t="2"><span class="check">○</span> Comparaison avec ton objectif</div>
       </div>
     </div>
 
     <div class="step" data-step="q6">
-      <div class="question-num">Pregunta 6 de 14</div>
-      <h2>¿Qué tipo de cuerpo describe mejor el tuyo?</h2>
+      <div class="question-num">Question 6 sur 14</div>
+      <h2>Quel type de morphologie te correspond le mieux ?</h2>
       <div class="options">
-        <button class="option" onclick="next()"><span class="emoji">🍎</span> Manzana — grasa en el abdomen</button>
-        <button class="option" onclick="next()"><span class="emoji">🍐</span> Pera — caderas y muslos</button>
-        <button class="option" onclick="next()"><span class="emoji">⏳</span> Reloj de arena — equilibrado</button>
-        <button class="option" onclick="next()"><span class="emoji">📏</span> Recto — sin curvas marcadas</button>
+        <button class="option" onclick="next()"><span class="emoji">🍎</span> Pomme — graisse au niveau de l'abdomen</button>
+        <button class="option" onclick="next()"><span class="emoji">🍐</span> Poire — hanches et cuisses</button>
+        <button class="option" onclick="next()"><span class="emoji">⏳</span> Sablier — silhouette équilibrée</button>
+        <button class="option" onclick="next()"><span class="emoji">📏</span> Rectangle — peu de courbes marquées</button>
       </div>
     </div>
 
     <div class="step" data-step="q7">
-      <div class="question-num">Pregunta 7 de 14</div>
-      <h2>¿En qué zona acumulas más grasa?</h2>
+      <div class="question-num">Question 7 sur 14</div>
+      <h2>Où accumules-tu le plus de graisse ?</h2>
       <div class="options">
-        <button class="option" onclick="next()"><span class="emoji">🎯</span> Abdomen y cintura</button>
-        <button class="option" onclick="next()"><span class="emoji">🍑</span> Caderas y glúteos</button>
-        <button class="option" onclick="next()"><span class="emoji">🦵</span> Muslos y piernas</button>
-        <button class="option" onclick="next()"><span class="emoji">💪</span> Brazos y espalda</button>
-        <button class="option" onclick="next()"><span class="emoji">🌐</span> En todo el cuerpo</button>
+        <button class="option" onclick="next()"><span class="emoji">🎯</span> Abdomen et taille</button>
+        <button class="option" onclick="next()"><span class="emoji">🍑</span> Hanches et fessiers</button>
+        <button class="option" onclick="next()"><span class="emoji">🦵</span> Cuisses et jambes</button>
+        <button class="option" onclick="next()"><span class="emoji">💪</span> Bras et dos</button>
+        <button class="option" onclick="next()"><span class="emoji">🌐</span> Partout sur le corps</button>
       </div>
     </div>
 
     <div class="step" data-step="q8">
-      <div class="question-num">Pregunta 8 de 14</div>
-      <h2>¿Has intentado bajar de peso antes?</h2>
+      <div class="question-num">Question 8 sur 14</div>
+      <h2>As-tu déjà essayé de perdre du poids ?</h2>
       <div class="options">
-        <button class="option" onclick="next()"><span class="emoji">😔</span> Sí, muchas veces sin éxito</button>
-        <button class="option" onclick="next()"><span class="emoji">🤔</span> Algunas veces, con resultados temporales</button>
-        <button class="option" onclick="next()"><span class="emoji">😊</span> Pocas veces</button>
-        <button class="option" onclick="next()"><span class="emoji">✋</span> Nunca lo he intentado</button>
+        <button class="option" onclick="next()"><span class="emoji">😔</span> Oui, plusieurs fois sans succès</button>
+        <button class="option" onclick="next()"><span class="emoji">🤔</span> Quelques fois, avec des résultats temporaires</button>
+        <button class="option" onclick="next()"><span class="emoji">😊</span> Rarement</button>
+        <button class="option" onclick="next()"><span class="emoji">✋</span> Jamais essayé</button>
       </div>
     </div>
 
-    <!-- LOADING 2 -->
+    <!-- CHARGEMENT 2 -->
     <div class="step loading-screen" data-step="l2">
       <div class="loading-icon">🧬</div>
-      <h2>Analizando tu metabolismo</h2>
+      <h2>Analyse de ton métabolisme</h2>
       <div class="loading-bar"><div class="loading-fill" id="lf2"></div></div>
       <div class="loading-pct" id="lp2">0%</div>
       <div class="loading-tasks" id="lt2">
-        <div class="loading-task" data-t="0"><span class="check">○</span> Identificando tipo corporal</div>
-        <div class="loading-task" data-t="1"><span class="check">○</span> Evaluando zonas de acumulación</div>
-        <div class="loading-task" data-t="2"><span class="check">○</span> Cruzando con historial de dietas</div>
+        <div class="loading-task" data-t="0"><span class="check">○</span> Identification de la morphologie</div>
+        <div class="loading-task" data-t="1"><span class="check">○</span> Évaluation des zones d'accumulation</div>
+        <div class="loading-task" data-t="2"><span class="check">○</span> Croisement avec l'historique alimentaire</div>
       </div>
     </div>
 
     <div class="step" data-step="q9">
-      <div class="question-num">Pregunta 9 de 14</div>
-      <h2>¿Cuántas comidas haces al día?</h2>
+      <div class="question-num">Question 9 sur 14</div>
+      <h2>Combien de repas fais-tu par jour ?</h2>
       <div class="options">
-        <button class="option" onclick="next()"><span class="emoji">1️⃣</span> 1 o 2 comidas</button>
-        <button class="option" onclick="next()"><span class="emoji">3️⃣</span> 3 comidas principales</button>
-        <button class="option" onclick="next()"><span class="emoji">5️⃣</span> 4 a 5 comidas pequeñas</button>
-        <button class="option" onclick="next()"><span class="emoji">🍽️</span> Como cuando tengo hambre</button>
+        <button class="option" onclick="next()"><span class="emoji">1️⃣</span> 1 ou 2 repas</button>
+        <button class="option" onclick="next()"><span class="emoji">3️⃣</span> 3 repas principaux</button>
+        <button class="option" onclick="next()"><span class="emoji">5️⃣</span> 4 à 5 petits repas</button>
+        <button class="option" onclick="next()"><span class="emoji">🍽️</span> Je mange quand j'ai faim</button>
       </div>
     </div>
 
     <div class="step" data-step="q10">
-      <div class="question-num">Pregunta 10 de 14</div>
-      <h2>¿Cuántos vasos de agua tomas al día?</h2>
+      <div class="question-num">Question 10 sur 14</div>
+      <h2>Combien de verres d'eau bois-tu par jour ?</h2>
       <div class="options">
-        <button class="option" onclick="next()"><span class="emoji">💧</span> Menos de 4 vasos</button>
-        <button class="option" onclick="next()"><span class="emoji">💧💧</span> Entre 4 y 6 vasos</button>
-        <button class="option" onclick="next()"><span class="emoji">💧💧💧</span> Entre 7 y 8 vasos</button>
-        <button class="option" onclick="next()"><span class="emoji">🌊</span> Más de 8 vasos</button>
+        <button class="option" onclick="next()"><span class="emoji">💧</span> Moins de 4 verres</button>
+        <button class="option" onclick="next()"><span class="emoji">💧💧</span> Entre 4 et 6 verres</button>
+        <button class="option" onclick="next()"><span class="emoji">💧💧💧</span> Entre 7 et 8 verres</button>
+        <button class="option" onclick="next()"><span class="emoji">🌊</span> Plus de 8 verres</button>
       </div>
     </div>
 
     <div class="step" data-step="q11">
-      <div class="question-num">Pregunta 11 de 14</div>
-      <h2>¿Cuántas horas duermes por noche?</h2>
+      <div class="question-num">Question 11 sur 14</div>
+      <h2>Combien d'heures dors-tu par nuit ?</h2>
       <div class="options">
-        <button class="option" onclick="next()"><span class="emoji">😴</span> Menos de 5 horas</button>
-        <button class="option" onclick="next()"><span class="emoji">🛌</span> Entre 5 y 6 horas</button>
-        <button class="option" onclick="next()"><span class="emoji">💤</span> Entre 7 y 8 horas</button>
-        <button class="option" onclick="next()"><span class="emoji">🌙</span> Más de 8 horas</button>
+        <button class="option" onclick="next()"><span class="emoji">😴</span> Moins de 5 heures</button>
+        <button class="option" onclick="next()"><span class="emoji">🛌</span> Entre 5 et 6 heures</button>
+        <button class="option" onclick="next()"><span class="emoji">💤</span> Entre 7 et 8 heures</button>
+        <button class="option" onclick="next()"><span class="emoji">🌙</span> Plus de 8 heures</button>
       </div>
     </div>
 
     <div class="step" data-step="q12">
-      <div class="question-num">Pregunta 12 de 14</div>
-      <h2>¿Con qué frecuencia haces ejercicio?</h2>
+      <div class="question-num">Question 12 sur 14</div>
+      <h2>À quelle fréquence fais-tu de l'exercice ?</h2>
       <div class="options">
-        <button class="option" onclick="next()"><span class="emoji">🚫</span> Nunca o casi nunca</button>
-        <button class="option" onclick="next()"><span class="emoji">🚶</span> De vez en cuando</button>
-        <button class="option" onclick="next()"><span class="emoji">🏃</span> 2 a 3 veces por semana</button>
-        <button class="option" onclick="next()"><span class="emoji">🏋️</span> Casi todos los días</button>
+        <button class="option" onclick="next()"><span class="emoji">🚫</span> Jamais ou presque jamais</button>
+        <button class="option" onclick="next()"><span class="emoji">🚶</span> De temps en temps</button>
+        <button class="option" onclick="next()"><span class="emoji">🏃</span> 2 à 3 fois par semaine</button>
+        <button class="option" onclick="next()"><span class="emoji">🏋️</span> Presque tous les jours</button>
       </div>
     </div>
 
     <div class="step" data-step="q13">
-      <div class="question-num">Pregunta 13 de 14</div>
-      <h2>¿Cuál es tu nivel de estrés?</h2>
+      <div class="question-num">Question 13 sur 14</div>
+      <h2>Quel est ton niveau de stress ?</h2>
       <div class="options">
-        <button class="option" onclick="next()"><span class="emoji">😌</span> Bajo — me siento tranquila</button>
-        <button class="option" onclick="next()"><span class="emoji">🙂</span> Medio — manejable</button>
-        <button class="option" onclick="next()"><span class="emoji">😟</span> Alto — me afecta seguido</button>
-        <button class="option" onclick="next()"><span class="emoji">😫</span> Muy alto — me siento agotada</button>
+        <button class="option" onclick="next()"><span class="emoji">😌</span> Faible — je me sens sereine</button>
+        <button class="option" onclick="next()"><span class="emoji">🙂</span> Moyen — gérable</button>
+        <button class="option" onclick="next()"><span class="emoji">😟</span> Élevé — ça m'affecte souvent</button>
+        <button class="option" onclick="next()"><span class="emoji">😫</span> Très élevé — je me sens épuisée</button>
       </div>
     </div>
 
     <div class="step" data-step="q14">
-      <div class="question-num">Pregunta 14 de 14</div>
-      <h2>¿En cuánto tiempo quieres ver resultados?</h2>
+      <div class="question-num">Question 14 sur 14</div>
+      <h2>Dans combien de temps veux-tu voir des résultats ?</h2>
       <div class="options">
-        <button class="option" onclick="next()"><span class="emoji">⚡</span> En las próximas 4 semanas</button>
-        <button class="option" onclick="next()"><span class="emoji">🎯</span> En 2 o 3 meses</button>
-        <button class="option" onclick="next()"><span class="emoji">📅</span> En 4 a 6 meses</button>
-        <button class="option" onclick="next()"><span class="emoji">⏰</span> No tengo prisa</button>
+        <button class="option" onclick="next()"><span class="emoji">⚡</span> Dans les 4 prochaines semaines</button>
+        <button class="option" onclick="next()"><span class="emoji">🎯</span> En 2 ou 3 mois</button>
+        <button class="option" onclick="next()"><span class="emoji">📅</span> En 4 à 6 mois</button>
+        <button class="option" onclick="next()"><span class="emoji">⏰</span> Je ne suis pas pressée</button>
       </div>
     </div>
 
-    <!-- LOADING FINAL -->
+    <!-- CHARGEMENT FINAL -->
     <div class="step loading-screen" data-step="l3">
       <div class="loading-icon">✨</div>
-      <h2>Preparando tu plan personalizado</h2>
+      <h2>Préparation de ton plan personnalisé</h2>
       <div class="loading-bar"><div class="loading-fill" id="lf3"></div></div>
       <div class="loading-pct" id="lp3">0%</div>
       <div class="loading-tasks" id="lt3">
-        <div class="loading-task" data-t="0"><span class="check">○</span> Diseñando tu plan nutricional</div>
-        <div class="loading-task" data-t="1"><span class="check">○</span> Seleccionando recetas con chía</div>
-        <div class="loading-task" data-t="2"><span class="check">○</span> Optimizando para tu objetivo</div>
-        <div class="loading-task" data-t="3"><span class="check">○</span> Finalizando recomendaciones</div>
+        <div class="loading-task" data-t="0"><span class="check">○</span> Conception de ton plan nutritionnel</div>
+        <div class="loading-task" data-t="1"><span class="check">○</span> Sélection des recettes au chia</div>
+        <div class="loading-task" data-t="2"><span class="check">○</span> Optimisation selon ton objectif</div>
+        <div class="loading-task" data-t="3"><span class="check">○</span> Finalisation des recommandations</div>
       </div>
     </div>
 
   </div>
 
-  <!-- =========== SALES PAGE =========== -->
+  <!-- =========== PAGE DE VENTE =========== -->
   <div class="step" data-step="sales" id="sales-section">
 
-    <!-- Header -->
+    <!-- En-tête -->
     <div class="result-header">
-      <div class="label">Tu plan está listo</div>
-      <h1>Puedes perder hasta <span id="kgPerder">8</span> kg en 12 semanas</h1>
+      <div class="label">Ton plan est prêt</div>
+      <h1>Tu peux perdre jusqu'à <span id="kgPerder">8</span> kg en 12 semaines</h1>
       <div class="result-stats">
         <div class="result-stat">
           <span class="val" id="statImc">--</span>
-          <span class="lbl">Tu IMC</span>
+          <span class="lbl">Ton IMC</span>
         </div>
         <div class="result-stat">
           <span class="val" id="statPeso">--</span>
-          <span class="lbl">Peso actual</span>
+          <span class="lbl">Poids actuel</span>
         </div>
         <div class="result-stat">
           <span class="val" id="statIdeal">--</span>
-          <span class="lbl">Objetivo</span>
+          <span class="lbl">Objectif</span>
         </div>
       </div>
-      <div class="imc-classification" id="imcClass">Sobrepeso</div>
+      <div class="imc-classification" id="imcClass">Surpoids</div>
     </div>
 
-    <!-- Chart -->
+    <!-- Graphique -->
     <div class="chart-wrap">
-      <div class="chart-title">Tu evolución estimada</div>
-      <div class="chart-sub">Siguiendo el Plan Chía durante 12 semanas</div>
+      <div class="chart-title">Ton évolution estimée</div>
+      <div class="chart-sub">En suivant le Plan Chía pendant 12 semaines</div>
       <svg class="chart-svg" viewBox="0 0 320 180" preserveAspectRatio="none">
         <defs>
           <linearGradient id="gradArea" x1="0" y1="0" x2="0" y2="1">
@@ -885,15 +885,11 @@
             <stop offset="100%" stop-color="#6ba832" stop-opacity="0"></stop>
           </linearGradient>
         </defs>
-        <!-- Grid lines -->
         <line x1="0" y1="40" x2="320" y2="40" stroke="#eef2f6" stroke-width="1"></line>
         <line x1="0" y1="90" x2="320" y2="90" stroke="#eef2f6" stroke-width="1"></line>
         <line x1="0" y1="140" x2="320" y2="140" stroke="#eef2f6" stroke-width="1"></line>
-        <!-- Area -->
         <path id="chartArea" d="M10,30 L80,55 L160,90 L240,120 L310,145 L310,180 L10,180 Z" fill="url(#gradArea)"></path>
-        <!-- Line -->
         <path id="chartLine" d="M10,30 L80,55 L160,90 L240,120 L310,145" stroke="#4a7c2a" stroke-width="3" fill="none" stroke-linecap="round"></path>
-        <!-- Points -->
         <circle cx="10" cy="30" r="5" fill="#4a7c2a"></circle>
         <circle cx="80" cy="55" r="5" fill="#4a7c2a"></circle>
         <circle cx="160" cy="90" r="5" fill="#4a7c2a"></circle>
@@ -901,7 +897,7 @@
         <circle cx="310" cy="145" r="6" fill="#fff" stroke="#4a7c2a" stroke-width="3"></circle>
       </svg>
       <div class="chart-legend">
-        <span>Hoy</span>
+        <span>Aujourd'hui</span>
         <span>Sem 3</span>
         <span>Sem 6</span>
         <span>Sem 9</span>
@@ -909,127 +905,127 @@
       </div>
     </div>
 
-    <!-- Benefits -->
+    <!-- Bénéfices -->
     <div class="card">
       <div class="sec-head">
-        <h3>Lo que vas a lograr</h3>
-        <p>Resultados respaldados por la chía y nutrición consciente</p>
+        <h3>Ce que tu vas accomplir</h3>
+        <p>Résultats soutenus par le chia et une nutrition consciente</p>
       </div>
       <div class="benefit-grid">
-        <div class="benefit"><div class="ico">🔥</div><div class="lbl">Quema grasa abdominal</div></div>
-        <div class="benefit"><div class="ico">💧</div><div class="lbl">Reduce retención</div></div>
-        <div class="benefit"><div class="ico">⚡</div><div class="lbl">Más energía diaria</div></div>
-        <div class="benefit"><div class="ico">🍽️</div><div class="lbl">Controla el apetito</div></div>
-        <div class="benefit"><div class="ico">💪</div><div class="lbl">Mejora digestión</div></div>
-        <div class="benefit"><div class="ico">✨</div><div class="lbl">Piel más radiante</div></div>
+        <div class="benefit"><div class="ico">🔥</div><div class="lbl">Brûle la graisse abdominale</div></div>
+        <div class="benefit"><div class="ico">💧</div><div class="lbl">Réduit la rétention d'eau</div></div>
+        <div class="benefit"><div class="ico">⚡</div><div class="lbl">Plus d'énergie au quotidien</div></div>
+        <div class="benefit"><div class="ico">🍽️</div><div class="lbl">Contrôle l'appétit</div></div>
+        <div class="benefit"><div class="ico">💪</div><div class="lbl">Améliore la digestion</div></div>
+        <div class="benefit"><div class="ico">✨</div><div class="lbl">Peau plus radieuse</div></div>
       </div>
     </div>
 
-    <!-- What you get -->
+    <!-- Ce que tu reçois -->
     <div class="card">
       <div class="sec-head">
-        <h3>Qué incluye tu plan</h3>
-        <p>Todo lo que necesitas para empezar hoy</p>
+        <h3>Ce qui est inclus dans ton plan</h3>
+        <p>Tout ce dont tu as besoin pour commencer aujourd'hui</p>
       </div>
       <div class="includes-list">
         <div class="includes-item">
           <div class="ck">✓</div>
           <div class="body">
-            <strong>Recetario Chía 90 días</strong>
-            <span>Más de 70 recetas paso a paso</span>
+            <strong>Recueil Chía 90 jours</strong>
+            <span>Plus de 70 recettes pas à pas</span>
           </div>
-          <div class="price-tag">$27</div>
+          <div class="price-tag">27€</div>
         </div>
         <div class="includes-item">
           <div class="ck">✓</div>
           <div class="body">
-            <strong>Plan nutricional personalizado</strong>
-            <span>Adaptado a tu peso, edad y objetivo</span>
+            <strong>Plan nutritionnel personnalisé</strong>
+            <span>Adapté à ton poids, ton âge et ton objectif</span>
           </div>
-          <div class="price-tag">$19</div>
+          <div class="price-tag">19€</div>
         </div>
         <div class="includes-item">
           <div class="ck">✓</div>
           <div class="body">
-            <strong>Guía de combinación de alimentos</strong>
-            <span>Cómo potenciar la quema de grasa</span>
+            <strong>Guide de combinaison alimentaire</strong>
+            <span>Comment optimiser la combustion des graisses</span>
           </div>
-          <div class="price-tag">$15</div>
+          <div class="price-tag">15€</div>
         </div>
         <div class="includes-item">
           <div class="ck">✓</div>
           <div class="body">
-            <strong>Lista de compras semanal</strong>
-            <span>Ahorra tiempo y dinero</span>
+            <strong>Liste de courses hebdomadaire</strong>
+            <span>Gagne du temps et de l'argent</span>
           </div>
-          <div class="price-tag">$9</div>
+          <div class="price-tag">9€</div>
         </div>
         <div class="includes-item">
           <div class="ck">✓</div>
           <div class="body">
-            <strong>Acceso al grupo de apoyo</strong>
-            <span>Comunidad privada y acompañamiento</span>
+            <strong>Accès au groupe de soutien</strong>
+            <span>Communauté privée et accompagnement</span>
           </div>
-          <div class="price-tag">Gratis</div>
+          <div class="price-tag">Gratuit</div>
         </div>
       </div>
     </div>
 
-    <!-- Before / After -->
+    <!-- Avant / Après -->
     <div class="card">
       <div class="sec-head">
-        <h3>Mujeres reales, resultados reales</h3>
-        <p>Mira lo que han logrado con el plan</p>
+        <h3>Vraies femmes, vrais résultats</h3>
+        <p>Regarde ce qu'elles ont accompli avec le plan</p>
       </div>
       <div class="before-after">
-        <img src="assets/lg-uczkU-antes.png" alt="Antes y después" loading="lazy">
-        <img src="assets/lg-VpwqS-lg-fvmh9-4b894612-c8d9-41c1-942d-d8fcc686e640.jpg" alt="Antes y después" loading="lazy">
-        <img src="assets/lg-rgYkM-lg-r2y0m-ad78f439-0f8a-4053-aabd-0874e2f717a8.jpg" alt="Antes y después" loading="lazy">
+        <img src="assets/antes.png" alt="Avant et après" loading="lazy">
+        <img src="assets/resultado-1.jpg" alt="Avant et après" loading="lazy">
+        <img src="assets/resultado-2.jpg" alt="Avant et après" loading="lazy">
       </div>
     </div>
 
-    <!-- Comparison -->
+    <!-- Comparatif -->
     <div class="card">
       <div class="sec-head">
-        <h3>¿Por qué Plan Chía?</h3>
-        <p>Comparado con otros métodos</p>
+        <h3>Pourquoi le Plan Chía ?</h3>
+        <p>Comparé aux autres méthodes</p>
       </div>
       <table class="compare">
         <thead>
           <tr>
             <th></th>
             <th class="us">Plan Chía</th>
-            <th>Dietas</th>
-            <th>Pastillas</th>
+            <th>Régimes</th>
+            <th>Pilules</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="first">100% natural</td>
+            <td class="first">100% naturel</td>
             <td class="us"><span class="yes">✓</span></td>
             <td><span class="yes">✓</span></td>
             <td><span class="no">✗</span></td>
           </tr>
           <tr>
-            <td class="first">Sin pasar hambre</td>
+            <td class="first">Sans faim</td>
             <td class="us"><span class="yes">✓</span></td>
             <td><span class="no">✗</span></td>
             <td><span class="yes">✓</span></td>
           </tr>
           <tr>
-            <td class="first">Sin efecto rebote</td>
+            <td class="first">Sans effet yoyo</td>
             <td class="us"><span class="yes">✓</span></td>
             <td><span class="no">✗</span></td>
             <td><span class="no">✗</span></td>
           </tr>
           <tr>
-            <td class="first">Sin efectos adversos</td>
+            <td class="first">Sans effets secondaires</td>
             <td class="us"><span class="yes">✓</span></td>
             <td><span class="yes">✓</span></td>
             <td><span class="no">✗</span></td>
           </tr>
           <tr>
-            <td class="first">Resultados duraderos</td>
+            <td class="first">Résultats durables</td>
             <td class="us"><span class="yes">✓</span></td>
             <td><span class="no">✗</span></td>
             <td><span class="no">✗</span></td>
@@ -1038,115 +1034,115 @@
       </table>
     </div>
 
-    <!-- Testimonials -->
+    <!-- Témoignages -->
     <div class="card">
       <div class="sec-head">
-        <h3>Lo que dicen nuestras clientas</h3>
-        <p>+12.000 mujeres ya transformaron su vida</p>
+        <h3>Ce que disent nos clientes</h3>
+        <p>+12 000 femmes ont déjà transformé leur vie</p>
       </div>
       <div class="testimonial">
         <div class="head">
           <div class="avatar">MR</div>
           <div>
-            <div class="name">María Rodríguez</div>
-            <div class="meta">Bogotá · Verificada</div>
+            <div class="name">Marie Rousseau</div>
+            <div class="meta">Paris · Vérifiée</div>
           </div>
           <div class="stars">★★★★★</div>
         </div>
-        <p>"Bajé 7 kilos en 2 meses sin pasar hambre. Las recetas son deliciosas y fáciles. ¡La mejor decisión!"</p>
+        <p>« J'ai perdu 7 kilos en 2 mois sans avoir faim. Les recettes sont délicieuses et faciles. La meilleure décision que j'aie prise ! »</p>
       </div>
       <div class="testimonial">
         <div class="head">
           <div class="avatar">CL</div>
           <div>
-            <div class="name">Carmen López</div>
-            <div class="meta">Ciudad de México · Verificada</div>
+            <div class="name">Camille Laurent</div>
+            <div class="meta">Lyon · Vérifiée</div>
           </div>
           <div class="stars">★★★★★</div>
         </div>
-        <p>"Pensé que sería como las otras dietas, pero esta es diferente. Tengo más energía y mi barriga ya no se hincha."</p>
+        <p>« Je pensais que ce serait comme les autres régimes, mais c'est différent. J'ai plus d'énergie et mon ventre ne gonfle plus. »</p>
       </div>
       <div class="testimonial">
         <div class="head">
           <div class="avatar">AS</div>
           <div>
-            <div class="name">Ana Sánchez</div>
-            <div class="meta">Lima · Verificada</div>
+            <div class="name">Aurélie Simon</div>
+            <div class="meta">Bordeaux · Vérifiée</div>
           </div>
           <div class="stars">★★★★★</div>
         </div>
-        <p>"En 3 semanas ya bajé una talla. Lo recomiendo 100%, vale cada centavo y más."</p>
+        <p>« En 3 semaines j'ai déjà perdu une taille. Je le recommande à 100%, ça vaut chaque centime et bien plus encore. »</p>
       </div>
     </div>
 
-    <!-- Guarantee -->
+    <!-- Garantie -->
     <div class="guarantee">
       <div class="guarantee-badge">🛡️</div>
-      <h3>Garantía total de 30 días</h3>
-      <p>Si no ves resultados o no estás 100% satisfecha, te devolvemos todo tu dinero. Sin preguntas, sin enredos.</p>
+      <h3>Garantie totale 30 jours</h3>
+      <p>Si tu ne vois pas de résultats ou si tu n'es pas 100% satisfaite, nous te remboursons intégralement. Sans questions, sans complications.</p>
     </div>
 
-    <!-- Urgency + Pricing -->
+    <!-- Urgence + Prix -->
     <div class="urgency">
-      ⚠️ <strong>Oferta limitada</strong> — Solo por hoy con 67% de descuento
+      ⚠️ <strong>Offre limitée</strong> — Aujourd'hui seulement avec 67% de réduction
     </div>
 
     <div class="pricing">
-      <div class="label-promo">Oferta especial</div>
-      <h3>Plan Chía Completo</h3>
-      <div class="price-old">De $97 USD</div>
-      <div class="price-new">$29<span class="cents">.90</span></div>
-      <div class="price-installment">o 3 pagos de $9.97 sin intereses</div>
-      <div class="price-save">💰 Ahorras $67.10 USD</div>
+      <div class="label-promo">Offre spéciale</div>
+      <h3>Plan Chía Complet</h3>
+      <div class="price-old">De 97€</div>
+      <div class="price-new">29<span class="cents">,90€</span></div>
+      <div class="price-installment">ou 3 paiements de 9,97€ sans intérêts</div>
+      <div class="price-save">💰 Tu économises 67,10€</div>
       <a href="https://mejorhoy.site/hasnaskjasd/checkout.html" style="text-decoration:none;display:block;">
-        <button class="btn-primary btn-big">QUIERO MI PLAN AHORA →</button>
+        <button class="btn-primary btn-big">JE VEUX MON PLAN MAINTENANT →</button>
       </a>
       <div class="stamps">
-        <div class="stamp"><div class="ico">🔒</div><div class="lbl">Pago seguro</div></div>
-        <div class="stamp"><div class="ico">⚡</div><div class="lbl">Acceso inmediato</div></div>
-        <div class="stamp"><div class="ico">💳</div><div class="lbl">Todas las tarjetas</div></div>
-        <div class="stamp"><div class="ico">🛡️</div><div class="lbl">30 días garantía</div></div>
+        <div class="stamp"><div class="ico">🔒</div><div class="lbl">Paiement sécurisé</div></div>
+        <div class="stamp"><div class="ico">⚡</div><div class="lbl">Accès immédiat</div></div>
+        <div class="stamp"><div class="ico">💳</div><div class="lbl">Toutes les cartes</div></div>
+        <div class="stamp"><div class="ico">🛡️</div><div class="lbl">Garantie 30 jours</div></div>
       </div>
     </div>
 
     <!-- FAQ -->
     <div class="card" style="margin-top:16px;">
       <div class="sec-head">
-        <h3>Preguntas frecuentes</h3>
+        <h3>Questions fréquentes</h3>
       </div>
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">¿En cuánto tiempo voy a ver resultados? <span class="arrow">▼</span></div>
-        <div class="faq-a">La mayoría de nuestras clientas notan cambios en las primeras 2 semanas: menos hinchazón, más energía y reducción de medidas. A las 4 semanas los resultados se vuelven visibles en el espejo.</div>
+        <div class="faq-q" onclick="toggleFaq(this)">Combien de temps avant de voir des résultats ? <span class="arrow">▼</span></div>
+        <div class="faq-a">La plupart de nos clientes remarquent des changements dès les 2 premières semaines : moins de ballonnements, plus d'énergie et une réduction des mensurations. À 4 semaines, les résultats deviennent visibles dans le miroir.</div>
       </div>
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">¿Es seguro para mi salud? <span class="arrow">▼</span></div>
-        <div class="faq-a">Sí, completamente. El plan está basado en alimentación natural con chía, una semilla aprobada por la OMS. No usamos químicos, pastillas ni nada artificial.</div>
+        <div class="faq-q" onclick="toggleFaq(this)">Est-ce sans danger pour ma santé ? <span class="arrow">▼</span></div>
+        <div class="faq-a">Oui, complètement. Le plan est basé sur une alimentation naturelle au chia, une graine approuvée par l'OMS. Nous n'utilisons aucun produit chimique, aucune pilule ni rien d'artificiel.</div>
       </div>
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">¿Voy a pasar hambre? <span class="arrow">▼</span></div>
-        <div class="faq-a">No. La chía contiene fibra que se expande en el estómago generando saciedad natural. Comerás bien y saciada durante todo el día.</div>
+        <div class="faq-q" onclick="toggleFaq(this)">Vais-je avoir faim ? <span class="arrow">▼</span></div>
+        <div class="faq-a">Non. Le chia contient des fibres qui gonflent dans l'estomac, créant une satiété naturelle. Tu mangeras bien et tu te sentiras rassasiée toute la journée.</div>
       </div>
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">¿Cómo recibo el plan? <span class="arrow">▼</span></div>
-        <div class="faq-a">Apenas confirmes tu pago, recibirás un correo con tu acceso al área de miembros. Funciona en celular, tablet y computadora.</div>
+        <div class="faq-q" onclick="toggleFaq(this)">Comment est-ce que je reçois le plan ? <span class="arrow">▼</span></div>
+        <div class="faq-a">Dès que ton paiement est confirmé, tu recevras un e-mail avec ton accès à l'espace membres. Fonctionne sur téléphone, tablette et ordinateur.</div>
       </div>
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">¿Y si no me funciona? <span class="arrow">▼</span></div>
-        <div class="faq-a">Tienes 30 días para probarlo. Si no estás 100% satisfecha, te devolvemos tu dinero íntegro. Sin preguntas ni complicaciones.</div>
+        <div class="faq-q" onclick="toggleFaq(this)">Et si ça ne fonctionne pas pour moi ? <span class="arrow">▼</span></div>
+        <div class="faq-a">Tu as 30 jours pour l'essayer. Si tu n'es pas 100% satisfaite, nous te remboursons intégralement. Sans questions ni complications.</div>
       </div>
       <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">¿El pago es seguro? <span class="arrow">▼</span></div>
-        <div class="faq-a">Totalmente. Procesamos los pagos a través de plataformas certificadas con cifrado bancario. Tus datos están protegidos.</div>
+        <div class="faq-q" onclick="toggleFaq(this)">Le paiement est-il sécurisé ? <span class="arrow">▼</span></div>
+        <div class="faq-a">Totalement. Nous traitons les paiements via des plateformes certifiées avec cryptage bancaire. Tes données sont protégées.</div>
       </div>
     </div>
 
-    <!-- Final CTA -->
+    <!-- CTA Final -->
     <div class="pricing" style="margin-top:16px;">
-      <h3>Empieza hoy tu transformación</h3>
-      <div class="price-new">$29<span class="cents">.90</span></div>
-      <div class="price-installment">Pago único · Acceso de por vida</div>
+      <h3>Commence ta transformation aujourd'hui</h3>
+      <div class="price-new">29<span class="cents">,90€</span></div>
+      <div class="price-installment">Paiement unique · Accès à vie</div>
       <a href="https://mejorhoy.site/hasnaskjasd/checkout.html" style="text-decoration:none;display:block;">
-        <button class="btn-primary btn-big">COMENZAR AHORA →</button>
+        <button class="btn-primary btn-big">COMMENCER MAINTENANT →</button>
       </a>
     </div>
 
@@ -1236,10 +1232,10 @@
     document.getElementById('statIdeal').textContent = ideal + ' kg';
     document.getElementById('kgPerder').textContent = diff;
 
-    let cls = 'Peso saludable';
-    if (imc < 18.5) cls = 'Bajo peso';
-    else if (imc >= 25 && imc < 30) cls = 'Sobrepeso';
-    else if (imc >= 30) cls = 'Obesidad';
+    let cls = 'Poids normal';
+    if (imc < 18.5) cls = 'Insuffisance pondérale';
+    else if (imc >= 25 && imc < 30) cls = 'Surpoids';
+    else if (imc >= 30) cls = 'Obésité';
     document.getElementById('imcClass').textContent = cls;
   }
 
@@ -1247,6 +1243,5 @@
     el.parentElement.classList.toggle('open');
   }
 </script>
-
 
 </body></html>
